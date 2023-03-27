@@ -34,8 +34,7 @@ body {
 
 .parrafo {
     margin: 0;
-    text-align: center; /* Centrar el texto en el párrafo /
-    font-size: 16px; / Establecer el tamaño de fuente en 16 píxeles */
+    text-align: center; 
     }
 
 .column3 {
