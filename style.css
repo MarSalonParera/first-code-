@@ -19,12 +19,23 @@ body {
 
 
 .cabecera {
-    text-align: center;
+    display: flex;
     background-image: url(SMX2M8UF5A2-FirstCode-imagenes/header.jpg);
     background-size:cover;
     height:100vh;
-    width: 100%;
+    width: 100%; 
+    align-items: center;
+    justify-content: center;
+}
     
+.parrafo2{
+    text-align: center;
+    font-size: 40px;
+}
+.parrafo3 {
+    text-align: center;
+    padding-top: 3%;
+    font-size: 30px;
 }
 
 .proyecto {
@@ -32,14 +43,12 @@ body {
     font-size: 25px;
 }
 
-.parrafo {
-    text-align: center;
-    }
+
 
 .column3 {
-    width:33%;
+    width: 33.33%;
     float:left;
-    padding: 6%;
+    padding: 3%;          
 }
 
 .column2 {
@@ -48,7 +57,8 @@ body {
 }
 
 .imagen {
-    height: 300px;
+    width: 100%;
+    
 }
 
 .azul {
@@ -81,7 +91,7 @@ body {
 }
 
 .mapa {
-    width: 80%;
+    width: 500px;
 }
 
 .raro {
@@ -107,6 +117,10 @@ body {
     color: white;
 }
 
+.foot {
+
+
+}
 .column30 {
     width: 30%;
     float: left;
@@ -129,26 +143,45 @@ body {
 }
 
 @media screen and (max-width:600px) {
+
     .column3 {
         width: 50%;
     }
+    
     .column2 {
-        width: 50%;
+        width: 100%;
+    }
+    .mapa {
+        width: 100%;
+        margin: 0;
     }
     .column20{
         width: 50%;
 
     }
-    .column2es {
+    .abajo {
+        padding-left: 2%;
+    }
+    .column9 {
         width: 100%;
     }
-    .column30 {
+    .column60 {
         width: 50%;
     }
     .raro {
-        padding: 0%;
+        padding-left: 2%;
     }
+   
+    
     .mapa {
-        width: 100%;
+        width: 96%;
+        padding-left: 2%;
+        
+    }
+    .blanco {
+        padding-left: 5%;
+    }
+    .foot {
+        padding-left: 5%;
     }
 }
